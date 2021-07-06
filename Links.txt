@@ -1,0 +1,4 @@
+https://www.thorlabs.com/Software/Motion%20Control/Kinesis/Kinesis-labview.pdf
+https://www.thorlabs.com/images/TabImages/GuideToLabVIEWandAPT.pdf
+https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=8348
+https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=12675
