@@ -11,6 +11,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="MotorControl_MainVI.vi" Type="VI" URL="../MotorControl_MainVI.vi"/>
+		<Item Name="Theta_AxisMotorControlSetupAndHome.vi" Type="VI" URL="../Theta_AxisMotorControlSetupAndHome.vi"/>
+		<Item Name="X_AxisMotorControlSetupAndHome.vi" Type="VI" URL="../X_AxisMotorControlSetupAndHome.vi"/>
 		<Item Name="Y Translation Test.vi" Type="VI" URL="../Y Translation Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -50,6 +52,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Serial - Settings.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2020/examples/Instrument IO/Serial/support/Serial - Settings.ctl"/>
+			<Item Name="Y_AxisMotorControlSetupAndHome.vi" Type="VI" URL="../Y_AxisMotorControlSetupAndHome.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
