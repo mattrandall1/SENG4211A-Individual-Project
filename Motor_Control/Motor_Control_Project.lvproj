@@ -10,10 +10,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Controls" Type="Folder" URL="../Controls">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="SubVIs" Type="Folder" URL="../SubVIs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="MotorControl_MainVI.vi" Type="VI" URL="../MotorControl_MainVI.vi"/>
-		<Item Name="Theta_AxisMotorControlSetupAndHome.vi" Type="VI" URL="../Theta_AxisMotorControlSetupAndHome.vi"/>
-		<Item Name="X_AxisMotorControlSetupAndHome.vi" Type="VI" URL="../X_AxisMotorControlSetupAndHome.vi"/>
-		<Item Name="Y Translation Test.vi" Type="VI" URL="../Y Translation Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -51,8 +54,7 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Serial - Settings.ctl" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2020/examples/Instrument IO/Serial/support/Serial - Settings.ctl"/>
-			<Item Name="Y_AxisMotorControlSetupAndHome.vi" Type="VI" URL="../Y_AxisMotorControlSetupAndHome.vi"/>
+			<Item Name="Serial - Settings.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2020/examples/Instrument IO/Serial/support/Serial - Settings.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
